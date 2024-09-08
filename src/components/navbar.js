@@ -2,9 +2,9 @@ import React from "react";
 
 const navbar = () => {
   return (
-    <header className="fixed top-0 left-0 right-0 py-4 px-4 bg-black/90 backdrop-blur-0 z-[100] flex items-center border-b-[1px] border-neutral-900 justify-between  text-white">
+    <header className="fixed top-0 left-0 right-0 py-4 px-4 bg-green-500/100 backdrop-blur-0 z-[100] flex items-center justify-between  text-white">
     <aside className="flex items-center gap-[2px]">
-      <p className="text-3xl font-bold">Revzz</p>
+      <p className="text-3xl font-bold ">Revzz</p>
       {/* <Image 
       src="/revzz.in.png"
       width={100}
