@@ -1,15 +1,19 @@
 import "./App.css";
-import HeroSlider from "./components/hero-slider";
-import Navbar from "./components/navbar";
-import Markertplace from "./components/markertplace";
+import { BrowserRouter,Routes,Route } from "react-router-dom";import Navbar from "./components/navbar";
+import Home from "./pages/home";
+import Productpage from "./pages/productpage";
+import ViewProduct from "./components/viewproduct";
 
 function App() {
   return (
-    <>
-      {/* <Navbar />
-      <HeroSlider /> */}
-      <Markertplace />
-    </>
+    // <BrowserRouter>
+    // <Navbar />
+    // <Routes>
+    //   <Route path="/home" element={<Home />} />
+    //   <Route path="/product" element={<Productpage />}/>
+    // </Routes>
+    // </BrowserRouter>
+    <ViewProduct />
   );
 }
 

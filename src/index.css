@@ -1,11 +1,28 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@font-face {
+  font-family: 'Vitruv Display';
+  src: url('https://cdn.prod.website-files.com/651c1773a89236329c8b6b02/651c1773a89236329c8b6b48_VitruvDisplay-Regular.woff2') format('woff2'), url('https://cdn.prod.website-files.com/651c1773a89236329c8b6b02/651c1773a89236329c8b6b4b_VitruvDisplay-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Vitruv Display';
+  src: url('https://cdn.prod.website-files.com/651c1773a89236329c8b6b02/651c1773a89236329c8b6b4a_VitruvDisplay-RegularItalic.woff2') format('woff2'), url('https://cdn.prod.website-files.com/651c1773a89236329c8b6b02/651c1773a89236329c8b6b4c_VitruvDisplay-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+}
+
 
 * {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
 @layer base {
@@ -85,3 +102,6 @@
     font-feature-settings: "rlig" 1, "calt" 1;
   }
 }
+
+
+

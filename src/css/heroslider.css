@@ -15,7 +15,7 @@ body {
 
 .swiper {
   width: 100%;
-  height: 93vh;
+  height: 100%;
   background-size: cover;
 }
 
@@ -35,4 +35,16 @@ body {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.home-hero-image-wrap {
+  object-fit: cover;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  inset: 0% auto auto 0%;
+  overflow: hidden;
 }

@@ -55,6 +55,8 @@ module.exports = {
       },
       fontFamily: {
         sans: ["var(--font-sans)", ...fontFamily.sans],
+        vitruv: ["Vitruv Display"],
+        text: ["Vitruv Text"],
       },
       keyframes: {
         "accordion-down": {
